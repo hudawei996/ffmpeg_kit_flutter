@@ -52,5 +52,6 @@ dependencies {
     implementation 'androidx.annotation:annotation:1.5.0'
 //    implementation 'com.arthenica:ffmpeg-kit-https:6.0-2'
     implementation files('libs/ffmpeg-kit-https-6.0-2.aar')
-//    implementation files('libs/ffmpeg-kit-full-6.0-2.aar')
+    //本地这种依赖，在编译过程中还是通不过，得放到本地的maven仓库中。
+    // 且不能发送到maven在线仓库中，因版权问题，且需要发布者有maven的资质。
 }
