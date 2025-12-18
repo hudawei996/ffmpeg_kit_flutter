@@ -1,4 +1,4 @@
-package android
+//package android
 
 buildscript {
     repositories {
