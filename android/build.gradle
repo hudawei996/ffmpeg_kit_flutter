@@ -28,7 +28,7 @@ android {
 //        namespace 'com.arthenica.ffmpegkit.flutter'
 //    }
 
-    namespace 'com.arthenica.ffmpegkit.flutter'
+//    namespace 'com.arthenica.ffmpegkit.flutter'
     compileSdkVersion 33
 
     defaultConfig {
